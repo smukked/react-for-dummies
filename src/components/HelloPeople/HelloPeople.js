@@ -1,5 +1,5 @@
 import React from 'react';
-import './HelloWorld.css';
+import './HelloPeople.css';
 
 export class HelloPeople extends React.Component {
 
@@ -27,8 +27,8 @@ export class HelloPeople extends React.Component {
 
     render() {
         return <React.Fragment>
-            <h1 className="helloworld helloworld--greeting">Hello, {this.state.name}</h1>
-            <button className={this.props.people ? "helloworld helloworld--button" : "helloworld helloworld--button-disabled"} disabled={!this.props.people} onClick={this.setName}>Say Hello!</button>
+            <h1 className="hellopeople hellopeople--greeting">Hello, {this.state.name}</h1>
+            <button className={this.props.people ? "hellopeople hellopeople--button" : "hellopeople hellopeople--button-disabled"} disabled={!this.props.people} onClick={this.setName}>Say Hello!</button>
         </React.Fragment>;
     }
 }

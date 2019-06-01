@@ -1,0 +1,36 @@
+.hellopeople.hellopeople--greeting {
+  color: navy;
+}
+
+.hellopeople.hellopeople--button {
+  background-color: rgb(250, 121, 0);
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.hellopeople.hellopeople--button {
+  background-color: rgb(250, 121, 0);
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.hellopeople.hellopeople--button-disabled {
+  background-color: silver;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
