@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
-
 /*
     Step 0.0
     HTML
@@ -201,7 +200,7 @@ import * as serviceWorker from './serviceWorker';
 */
 
 // ReactDOM.render(
-//     <Hello name="Props" />,
+//     <Hello title="Mr." name="Props" />,
 //     document.getElementById('root')
 // );
 
@@ -234,6 +233,39 @@ import * as serviceWorker from './serviceWorker';
 
 /*
     Step 3.0
+    Simple Class Component
+*/
+
+// ReactDOM.render(
+//     <SimpleClassComponent />,
+//     document.getElementById('root')
+// );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+    Step 3.1
     Class Component
 */
 

@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "title": "Blade Runner",
+        "year": "1982",
+        "plot": "A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+        "ratings": [
+            {
+                "source": "Internet Movie Database",
+                "value": "8.2/10"
+            },
+            {
+                "source": "Rotten Tomatoes",
+                "value": "90%"
+            },
+            {
+                "source": "Metacritic",
+                "value": "89/100"
+            }
+        ],
+        "website": "https://www.warnerbros.com/blade-runner"
+    }
+]

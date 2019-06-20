@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    <style type="text/css">
+        .app {
+            text-align: center;
+            margin: 0 auto;
+            width: 1000px;
+        }
+
+        .app .headline {
+            margin: 20px;
+        }
+    </style>
+    <style type="text/css">
+        .movieList {
+            display: flex;
+            flex-flow: row wrap;
+        }
+    </style>
+    <style type="text/css">
+        .toggleButton .text {
+            vertical-align: top;
+            margin-right: 5px;
+            font-size: 15px;
+        }
+
+        .toggleButton .container {
+            border: solid 1px black;
+            width: 40px;
+            height: 20px;
+            border-radius: 10px;
+            padding: 2px;
+            margin-bottom: 3px;
+            display: inline-block;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        .toggleButton .container .button {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: black;
+        }
+
+        .toggleButton .container.on {
+            background-color: black;
+        }
+
+        .toggleButton .container.on .button {
+            float: right;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root">
+        <div class="app">
+            <h2 class="headline">My Favorite Movies</h2>
+            <div class="toggleButton">
+                <span class="text">Toggle View</span>
+                <div class="container on">
+                    <div class="button"></div>
+                </div>
+            </div>
+            <div class="movieList">
+                <div class="card" style="width: 18rem; margin: 0px 20px 20px 0px;">
+                    <img src="[poster]" class="card-img-top" alt="[title]">
+                    <div class="card-body" style="position: relative;">
+                        <i class="far fa-times-circle"
+                            style="position: absolute; right: 5px; top: 5px; cursor: pointer;"></i>
+                        <h5 class="card-title">[title] ([year])</h5>
+                        <p class="card-text">[plot]</p>
+                        <div style="margin-bottom: 10px;">
+                            <div><small class="text-muted"><b>[ratings_source]:</b> [ratings_value]</small></div>
+                            <div><small class="text-muted"><b>[ratings_source]:</b> [ratings_value]</small></div>
+                            <div><small class="text-muted"><b>[ratings_source]:</b> [ratings_value]</small></div>
+                        </div>
+                        <a href="[website]" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Go to
+                            Movie</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -21,7 +21,10 @@ export class HelloPeople extends React.Component {
             this.index = 0;
         }
 
-        this.setState({ name: this.props.people[this.index] });
+        this.setState({
+            name: this.props.people[this.index]
+        });
+        
         this.index = this.index + 1;
     }
 
